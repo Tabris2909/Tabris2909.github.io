@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricio Valero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff0000cc;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .content div {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .image-container, .description-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .description-container {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FABRICIO VALERO</h1>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#about">Biografia</a>
+        <a href="#services">Compañeros</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        
+        <section id="about">
+            <div class="description-container">
+                <h2>BIOGRAFIA</h2>
+                <p>Mi nombre es Fabricio Valero Aguilar y soy estudiante de Ciencia de la 
+                    Computación en la Universidad Católica San Pablo. Actualmente, estoy 
+                    cursando el curso de Introducción a la Ciencia de la Computación, 
+                    una materia que ha despertado en mí una gran pasión por el mundo 
+                    de la tecnología y la programación. Con una sólida base académica y 
+                    una curiosidad insaciable, me esfuerzo por aprender todo lo posible 
+                    y aprovechar al máximo esta etapa crucial de mi formación.</p>
+                <img src="imagenes/hombre.jpeg" alt="Foto personal" width="30%">
+            </div>
+        </section>
+
+        <section id="classmates">
+            <div class="content">
+
+                <div>
+                    <h2>Mis habilidades</h2>
+                    <p>Poseo un fuerte pensamiento crítico y lógico, lo que me permite analizar problemas complejos y encontrar soluciones eficientes. Esta habilidad es esencial en el campo de la informática, donde la resolución de problemas es una constante.
+                    </p>
+                    
+                    
+                </div>
+
+                <div>
+                    <h2>Mis hobbies</h2>
+                    <p>Mi tiempo libre está lleno de diversión y aprendizaje. Disfruto leyendo libros de ciencia ficción y tecnología, resolviendo desafíos en juegos didácticos, manteniéndome activo con deportes como el fútbol y explorando nuevos sonidos y artistas en el mundo de la música. Cada actividad me ofrece una experiencia única y me ayuda a crecer tanto personal como intelectualmente.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Mis inteses</h2>
+                    <p>Mi objetivo es completar mi carrera en Ciencia de la Computación y luego fundar una startup. Busco aplicar mis conocimientos y creatividad para desarrollar soluciones innovadoras. Estoy comprometido con el trabajo arduo y la búsqueda constante del éxito en el mundo empresarial y tecnológico.
+                    </p>
+                </div>
+
+                </div>
+        </section>
+
+        <section id="contact" style="margin-bottom: 50px;">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Compañeros</h2>
+                    <p>Visita también éstas páginas.</p>
+                    <p style="padding: 5px;">
+                        <a href="https://victor-juan-ramos-mamani.web.app/" style="color: rgb(15, 26, 184); text-decoration: none;"onclick=this.style.color = rgb(15,26,184);><b>Victor Ramos</b></a>
+                    </p>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <h2>Contacto</h2>
+                    <p>Encuentrame en</p>
+                    <p style="padding: 5px;">
+                        <a href="https://github.com/Tabris2909" style="color: rgb(15, 26, 184); text-decoration: none;"onclick=this.style.color = rgb(15,26,184);><b>GitHub</b></a>
+                    </p>
+                    <p style="padding: 5px;">
+                        <a href="https://www.linkedin.com/in/fabricio-daniel-valero-aguilar-304525308/" style="color: rgb(15, 26, 184); text-decoration: none;"onclick=this.style.color = rgb(15,26,184);><b>LinkedIn</b></a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Fabricio Valero. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
